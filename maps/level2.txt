@@ -1,0 +1,34 @@
+BACKGROUND:images/level2/back.jpg
+PLAYER=p:images/player/stand_right.png
+
+
+
+@t=Ghost:images/level2/sprites/Enemy1.gif
+@s=Ghost:images/level2/sprites/Enemy2.gif
+
+@T=Decor:images/level2/decors/tree.jpg
+
+#A:images/level2/decors/grass.png
+#B:images/level2/decors/field.png
+
+
+START
+
+   
+ 
+   
+     
+                                              t    s
+ p  s    tt  s      s    t   t             BBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+END
+
+//lines start with @ represents Sprites
+//lines that start with #represents the character which is a tile followed by the tile image filepath
+//characters and the imagepath must be separated by : with no space
+//main map is drawn after START and END ensure the end of the map
+//lines between START and END represents rows of the 2D array
+//lamp=7 space
+//F=7 space
+//H=1 space
+//T=1

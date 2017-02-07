@@ -1,0 +1,49 @@
+
+BACKGROUND:images/level1/decor/back1.jpg
+
+PLAYER=p:images/player/stand_right.png
+
+
+@c=Frank:images/level1/sprites/frank.gif
+@w=Ghost:images/level1/sprites/witch.gif
+@s=Skeleton:images/level1/sprites/skeleton.gif
+@b=Pumking:images/level1/sprites/pumking.gif
+@z=Zombie:images/level1/sprites/zombie.gif
+@e=Bat:images/level1/sprites/bat.gif
+
+
+@L=Decor:images/level1/decor/lamp.png
+@H=Decor:images/level1/decor/house.png
+@T=Decor:images/level1/decor/tree1.png
+@F=Decor:images/level1/decor/road1.png
+@Q=Decor:images/level1/decor/road2.png
+@M=Decor:images/level1/decor/hangman.gif
+@G=Decor:images/level1/decor/ghost.gif
+
+#R:images/level1/decor/rock.png
+
+
+
+
+
+START
+           e      e     e      
+ e  	e      e         e        e      e      e        e             
+		w	     e          e               e               w       e
+      e     s s  		w  	 e        z z            w    s s        e
+            R R           w           R R                 R R          
+   w      RRRRRRR  R                RRRRRRR       c     cRRRRRRz
+Lp       RRRRR    b G RRM    b  RRRR        G  RRRRRRRRRRRRRRRRRRRR b
+RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+END
+
+
+//lines start with @ represents Sprites
+//lines that start with #represents the character which is a tile followed by the tile image filepath
+//characters and the imagepath must be separated by : with no space
+//main map is drawn after START and END ensure the end of the map
+//lines between START and END represents rows of the 2D array
+//lamp=7 space
+//F=7 space
+//H=1 space
+//T=1
