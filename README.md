@@ -38,4 +38,4 @@ Course: Software Development Lab 2
 - Proper handling of threads with continuous update.
 - Double buffering and page flipping for smooth refresh of screen.
 - As with all my university projects, all the logics such as scrolling of the map, firing, collision detection etc. were implemented without googling or using any other help.
-
+- Most of the graphics part was done by other team members.
