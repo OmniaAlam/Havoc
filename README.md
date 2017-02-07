@@ -33,10 +33,9 @@ Course: Software Development Lab 2
 ### Technical Specification
 
 - Scratch built tile engine.
-- Text base map editor - developer can place objects, enemeies etc. in a text file as symbols, 
-making it very easy to create as many levels as wanted.
+- Text base map editor - developer can place objects, enemeies etc. in a text file as symbols, making it very easy to create as many levels as wanted.
 - Pooling mechanism was used to re-use resources such as fired bullets.
 - Proper handling of threads with continuous update.
 - Double buffering and page flipping for smooth refresh of screen.
-- As with all my university projects, all the logics such as scrolling of the map, firing etc. were implemented
-without googling or using any other help.
+- As with all my university projects, all the logics such as scrolling of the map, firing, collision detection etc. were implemented without googling or using any other help.
+
